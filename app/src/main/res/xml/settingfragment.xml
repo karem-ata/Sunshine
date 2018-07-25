@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="@string/latitude_key"
+        android:title="latitude" />
+
+    <EditTextPreference
+        android:title="Longitude"
+        android:key="@string/longitude_key" />
+
+    <ListPreference
+        android:title="Units"
+        android:defaultValue="@string/pref_unit_default"
+        android:key="@string/pref_unit_key"
+        android:entries="@array/unit_option"
+        android:entryValues="@array/unit_values"/>
+
+    <CheckBoxPreference
+        android:title="Set notification"
+        android:summaryOn="enabled"
+        android:summaryOff="disabled"
+        android:defaultValue="@bool/notification_default"
+        android:key="@string/notification_key"/>
+</PreferenceScreen>

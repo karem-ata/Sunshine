@@ -1,0 +1,32 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">sunshine</string>
+    <string name="latitude_key">latitude</string>
+    <string name="longitude_key">Longitude</string>
+    <string name="pref_unit_default">metric</string>
+    <string name="pref_unit_key">unit</string>
+    <string name="notification_key">noty</string>
+    <string name="sunshine">Sunshine</string>
+    <string name="metric">metric</string>
+    <string name="format_temperature">
+        <xliff:g id="temp">%1.0f</xliff:g>\u00B0
+    </string>
+
+    <string name="format_notification">
+        Forecast:<xliff:g id="condition">%1$s</xliff:g> -
+        High:<xliff:g id="high">%2$s</xliff:g>
+        Low:<xliff:g id="low">%3$s</xliff:g>
+    </string>
+
+    <string name="format_pressure">
+        <xliff:g id="pressure">%1.0f</xliff:g> hPa
+    </string>
+
+    <string name="format_humidity">
+        <xliff:g id="humidity">%1.0f</xliff:g> %%
+    </string>
+
+    <string name="format_wind_kmh">
+    <xliff:g id="speed">%1$1.0f</xliff:g>km/h
+    </string>
+
+</resources>
